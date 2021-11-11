@@ -10,9 +10,9 @@
    结果: Hello
 ### 项目结构src/main:
    java/cn/buulog/fanyi/pojo: 有一个Word类，包含上述参数。
-   ```control：提供访问接口，使用http协议，获取get/post参数
-   ```service: 转换 Word 与 译文
-   ```dao：简单封装将Word拆分参数，与tencent-api进行交互，获取Word结果
+   java/cn/buulog/fanyi/control：提供访问接口，使用http协议，获取get/post参数
+   java/cn/buulog/fanyi/service: 转换 Word 与 译文
+   java/cn/buulog/fanyi/dao：简单封装将Word拆分参数，与tencent-api进行交互，获取Word结果
    
    resources:
       applicaton.yml用于port信息，springboot相关配置
